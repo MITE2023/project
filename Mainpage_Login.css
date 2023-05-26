@@ -4,3 +4,6 @@
 #border_style{
     border: 1px solid #42a0e2;
 }
+.list-group-item{
+    background-color: #efefef;
+}
