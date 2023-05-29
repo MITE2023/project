@@ -23,6 +23,11 @@
               <li class="login_confirm">
                 <a class="nav-link" type="text">user_id</a> <!-- 로그인 되어 있으면 아이디 표시, 로그아웃 상태일때는 표시 없고 로그인 버튼 따로 있음 -->
               </li>
+              <li class="nav-item">
+                <a class="nav-link" type="text">트렌드 IT 게시판</a> 
+            </li> 
+
+              
             </ul> 
             <ul class="navbar-nav" id="check_login">
               <li class="nav-item">
@@ -34,137 +39,70 @@
       </nav>
       <section>
         <div class="container text-center">
-          <div class="row align-items-start">
-            <div class="row">
-              <div class="col">           
-              </div>
-              <div class="col" id="Logo">
-                <img class="logo" src="Logo.png" height="250">
-              </div>
-              <div class="col">
-              </div>
-            </div>   
-          </div>
-          <div class="row align-items-center">
-            <div class="row">
-              <div class="col">   
-            
-              </div>
-              <div class="col" id="Logo">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success w-25" type="submit">검색</button>
-                </form>   
-              </div>
-              <div class="col">
-              </div>
-            </div>   
-          </div>
+            <div class="row align-items-start">
+                <div class="row">
+                <div class="col">           
+                </div>
+                <div class="col" id="Logo">
+                    <img class="logo" src="Logo.png" height="250">
+                </div>
+                <div class="col">
+                </div>
+                </div>   
+            </div>
+            <div class="row align-items-center">
+                <div class="row">
+                <div class="col">   
+                
+                </div>
+                <div class="col" id="Logo">
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success w-25" type="submit">검색</button>
+                    </form>   
+                </div>
+                <div class="col">
+                  <button class="btn btn-outline-success w-25" type="button">글쓰기</button>
+                </div>   
+            </div>
           <br>
           <br>
-          <div class="row align-items-end">
-            <div class="row">
-              <div class="col" id="border_style">  
-                <thead>
-                  <tr>
-                    <th scope="col">질문 게시판</th>
-                  </tr>
-                  <br>
-                  <br>
-                </thead>
-                <!-- <tbody>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감2</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감3</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감4</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감5</a>
-                    </td>
-                  </tr>
-                  <br>
-                </tbody> -->
-                <div class="list-group list-group-flush">
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감</a>
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감2</a>
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감3</a>
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감4</a>
-                  <a class="list-group-item list-group-item-action">게시글 제목이 들어감5</a>
+          <br>
+          <br>
+            <div class="row align-items-center">
+                <table class="table table-striped ">
+                    <tr class="text-center">
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>등록일</th>
+                        <th>조회</th>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">1</td>
+                        <td><a href="#">안녕하세요. 질문있어요.</a></td>
+                        <td>강재영 짱짱맨</td>
+                        <td>2023.05.29</td>
+                        <td class="col-sm-1">10</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row align-items-start">
+                <div class="col">   
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
                 </div>
-              </div>
-              <div class="col" id="border_style">  
-                <thead>
-                  <tr>
-                    <th scope="col">트렌드 IT</th>
-                  </tr>
-                  <br>
-                  <br>
-                </thead>
-                <!-- <tbody>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감2</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감3</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감4</a>
-                    </td>
-                  </tr>
-                  <br>
-                  <tr>
-                    <td class="title">
-                      <a href="#">게시글 제목이 들어감5</a>
-                    </td>
-                  </tr>
-                  <br>
-                </tbody> -->
-                <div class="list-group list-group-flush">
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감</a>
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감2</a>
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감3</a>
-                  <a href="#" class="list-group-item list-group-item-action">게시글 제목이 들어감4</a>
-                  <a class="list-group-item list-group-item-action">게시글 제목이 들어감5</a>
-                </div>
-              </div>
-            </div>   
-          </div>
+            </div>    
         </div>
       </section>
-
+      <script src="Trend_IT.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
