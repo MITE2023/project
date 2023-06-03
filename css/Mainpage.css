@@ -4,6 +4,13 @@
 #border_style{
     border: 1px solid #42a0e2;
 }
+
+#post_title{
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: inherit;
+}
+
 .list-group-item{
     background-color: #efefef;
 }
